@@ -1,0 +1,7 @@
+Circuit description
+
+The circuit implements a signal amplification and switching system using an operational amplifier and a BJT transistor. The op-amp is configured as a non-inverting amplifier to increase the amplitude of a low-level input signal. This amplified signal drives the base of the transistor, which operates as a low-side switch controlling the load. The waveforms demonstrate correct operation: the input sine wave (in green) is amplified by the op-amp (in blue), and the transistor output  shows switching behaviour (in red), with the collector voltage transitioning between high 9V and low 1.7V levels in response to the input signal.
+
+Relevance
+
+This simulation is relevant to our group’s mouse racing project as it demonstrates how low-power control signals can be used to drive motors (substituted for a resistor dummy load in simulation) in a battery-powered system. The op-amp allows small sensor signals, such as those used for track detection, to be amplified, while the transistor enables control of the motor driving the mouse. Simulation in LTspice is useful to us as it allows verification of circuit behaviour, including amplification and switching performance, before physical implementation. This helped us identify design issues early, optimise component usage, and reduce the risk of errors in the final circuit.
