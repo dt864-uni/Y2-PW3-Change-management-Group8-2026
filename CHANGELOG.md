@@ -11,3 +11,8 @@ All the changes will be logged here.
 
 ### Reason for Change
 This update reflects the agreed final version of the team charter after team review.
+
+## [v2] - Circuit Diagrams Approved
+
+### Added
+- Added Circuit diagrams
